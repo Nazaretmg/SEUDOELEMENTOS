@@ -1,0 +1,25 @@
+p.linea::first-line {
+	font-size: 2em;
+}
+
+::first-letter {
+	font-size: 2em;
+}
+
+p::before {
+	content: "leer...";
+	font-weight: bold;
+}
+
+li::before{
+	content:"";
+	background-image: url("img/checkverde.jpg");
+	width: 10px;
+}
+
+div.fondo{
+	background-image: url("img/amanecer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
